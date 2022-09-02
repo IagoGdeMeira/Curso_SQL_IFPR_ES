@@ -1,11 +1,5 @@
-CREATE DATABASE teste_bd;
-CREATE DATABASE IF NOT EXISTS teste_bd;
-
-DROP DATABASE teste_bd;
 DROP DATABASE IF EXISTS teste_bd;
-
-CREATE DATABASE teste_bd_2;
-
+CREATE DATABASE IF NOT EXISTS teste_bd;
 USE teste_bd;
 
 CREATE TABLE estado (
